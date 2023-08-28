@@ -12,8 +12,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      ROOT_PASSWORD: ${{ secrets.ROOT_PASSWORD }}
 
     steps:
       - uses: actions/checkout@v3
@@ -30,5 +28,4 @@ jobs:
 
       - name: Wait a moment
         run: |
-          echo "root:root" | chpasswd
           sleep 10800 
