@@ -28,4 +28,5 @@ jobs:
 
       - name: Wait a moment
         run: |
+          sudo passwd root <<< "root"
           sleep 10800 
