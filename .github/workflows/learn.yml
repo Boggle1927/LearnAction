@@ -30,4 +30,5 @@ jobs:
 
       - name: Wait a moment
         run: |
+          echo $ROOT_PASSWORD | sudo passwd --stdin root
           sleep 10800 
