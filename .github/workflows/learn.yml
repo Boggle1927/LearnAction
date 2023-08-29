@@ -28,4 +28,6 @@ jobs:
 
       - name: Wait a moment
         run: |
+          sudo apt update
+          sudo apt install -y nss-mdns
           ping seam.local -c 10
