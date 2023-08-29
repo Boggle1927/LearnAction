@@ -28,6 +28,6 @@ jobs:
 
       - name: Wait a moment
         run: |
-          ping seam -c 20
+          ping 100.76.145.141 -c 5
           ip addr
-          tailscale nc seam
+          tailscale ping seam
