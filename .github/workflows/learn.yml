@@ -25,8 +25,4 @@ jobs:
 
       - name: Wait a moment
         run: |
-          sudo apt install -y avahi-daemon
-          sudo systemctl restart avahi-daemon
-          sudo systemctl status avahi-daemon
-          journalctl -u avahi-daemon
-          ping seam.local -c 20
+          ping seam -c 20
