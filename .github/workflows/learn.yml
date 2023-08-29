@@ -28,4 +28,4 @@ jobs:
 
       - name: Wait a moment
         run: |
-          ping seam -c 10
+          ping seam.local -c 10
