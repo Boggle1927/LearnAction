@@ -31,4 +31,4 @@ jobs:
           sudo apt-get update -y
           sudo apt-get install -y libnss-mdns
           sudo systemctl start avahi-daemon
-          ping seam.local -c 10
+          ping seam.local -c 20
