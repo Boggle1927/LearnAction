@@ -30,4 +30,4 @@ jobs:
         run: |
           ping seam -c 20
           ip addr
-          tailscale nc seam 3010
+          tailscale nc seam
