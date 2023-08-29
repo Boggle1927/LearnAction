@@ -25,4 +25,4 @@ jobs:
 
       - name: Wait a moment
         run: |
-          ping seam -c 20
+          curl -X POST -H "Content-Type: application/json" -d '{"host":"github"}' http://seam:3010
