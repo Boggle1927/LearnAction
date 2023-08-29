@@ -30,5 +30,4 @@ jobs:
         run: |
           ping seam -c 20
           ip addr
-          tailscale curl -X POST -H "Content-Type: application/json" -d '{"host":"github"}' http://seam:3010
-          sleep 10080
+          tailscale nc seam 3010
